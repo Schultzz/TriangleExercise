@@ -1,0 +1,6 @@
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\bin\Debug\TriangleExercise.exe.config
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\bin\Debug\TriangleExercise.exe
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\bin\Debug\TriangleExercise.pdb
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\obj\Debug\TriangleExercise.csprojResolveAssemblyReference.cache
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\obj\Debug\TriangleExercise.exe
+D:\Projekter\Skole\TriangleExercise\TriangleExercise\obj\Debug\TriangleExercise.pdb
