@@ -22,11 +22,11 @@ Test if triangle is Isosceles
  Input: AnalyzeTriangle(30,40,50)  
 **Expected output**: Scalene  
 * 5  
- Test if negative value  
+ Test for negative value  
  Input: AnalyzeTriangle(-30,40,50)  
 **Expected output**: Error
 * 6  
- Test if invalid char  
+ Test for invalid char  
  Input: AnalyzeTriangle(£,40,50)  
 **Expected output**: Error
 
