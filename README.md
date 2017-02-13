@@ -14,16 +14,19 @@ Test if triangle is Equilateral
 **Input:**: AnalyzeTriangle(30,30,30)  
 **Expected output**: Equilateral  
 * 3  
-Test if triangle is Equilateral  
-**Input:**: AnalyzeTriangle(30,30,30)  
-**Expected output**: Equilateral  
-* 4  
 Test if triangle is Isosceles  
 **Input:**: AnalyzeTriangle(30, 50, 30)  
 **Expected output**: Isosceles  
-* 5  
-  Test if triangle is Scalene  
-  Input: AnalyzeTriangle(30,40,50)  
+* 4  
+ Test if triangle is Scalene  
+ Input: AnalyzeTriangle(30,40,50)  
 **Expected output**: Scalene  
-
+* 5  
+ Test if negative value  
+ Input: AnalyzeTriangle(-30,40,50)  
+**Expected output**: Error
+* 6  
+ Test if invalid char  
+ Input: AnalyzeTriangle(£,40,50)  
+**Expected output**: Error
 
