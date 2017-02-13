@@ -13,19 +13,26 @@ namespace TriangleExercise
         {
             Program program = new Program();
 
-            /*Test if triangle is NOT a triangle
-             * Input: 0, 0, 1
-             * Expected output: Error
-             */
-            Console.WriteLine(program.AnalyzeTriangle(0, 0, 1));
-            //Test if triangle is Equilateral
-            Console.WriteLine(program.AnalyzeTriangle(30, 30, 30));
-            //Test if triangle is Isosceles
-            Console.WriteLine(program.AnalyzeTriangle(30, 50, 30));
-            //Test if triangle is Scalene
-            Console.WriteLine(program.AnalyzeTriangle(30, 40, 50));
+            while (true)
+            {
+                Console.WriteLine("Input three numbers, one at a time");
 
-            Console.ReadKey();
+                try
+                {
+                    int a = int.Parse(Console.ReadLine());
+                    int b = int.Parse(Console.ReadLine());
+                    int c = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine(program.AnalyzeTriangle(a, b, c));
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Error");
+                }
+
+                
+            }
+
         }
 
 
