@@ -3,7 +3,7 @@
 The program analyses three values and determine what type of Triangle they form.
 
 The method AnalyzeTriangle take three input parameters, which all should be Int’s.
-Returns a string with either an error or they type of the triangle.
+Returns a string with either an error or the type of the triangle.
 
 * 1  
 Test if triangle is NOT a triangle  
